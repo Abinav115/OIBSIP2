@@ -1,69 +1,66 @@
-body{
-  margin-top: 60px;
-  text-align:center;
-  background-color: rgba(149, 211, 208, 0.884);
+body {
+  margin-top:200px;
+  text-align: center;
+  background-color: #020d11;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #16021204;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-  padding-bottom: 8px;
   color: #eb1212;
 }
 
-input[type=number] {
-  cursor: pointer;
+.input-group {
+  margin-bottom: 20px;
 }
 
-#input-celsius{
+.btn-primary {
   background-color: #eb1212;
-  
-  font-size: 20px;
-  width: 300px;
-  height: 10px;
-
-  
+  border: none;
 }
 
-#input-fahrenheit{
-  background-color: #b7d7da;
-  
-  font-size: 20px;
-  width: 300px;
-  height: 10px;
+.btn-primary:hover {
+  background-color: #d90c0c;
 }
 
-#input-kelvin{
-  background-color: #cc1394;
-  font-size: 20px;
-  width: 300px;
-  height: 10px;
-
+#result {
+  margin-top: 10px;
+  display: none;
 }
 
-.Temperature {
-  padding: 2rem 1rem;
-}
-
-::-webkit-input-placeholder {
-  color: #FFFFFF !important;
-}
-::-moz-placeholder {
-  color: #FFFFFF !important;
-}
-:-ms-input-placeholder {
-  color: #FFFFFF !important;
-}
-:-moz-placeholder {
-  color: #FFFFFF !important;
-}
-
-footer{
-  padding-top: 40px;
-  font-size: 16px;
-  line-height: 19px;
-  text-align:center;
-}
-
-.icons{
+.icons {
   max-width: 25px;
   height: auto;
+}
+
+/* Additional styles for input fields */
+.form-control {
+  font-size: 18px;
+  height: 50px;
+}
+
+/* Style the dropdown select */
+#unit-select {
+  height: 50px;
+}
+
+/* Style the result message */
+.alert {
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+footer {
+  margin-top: 150px;
+  font-size: 16px;
+  text-align: center;
+  color: #d90c0c;
 }
